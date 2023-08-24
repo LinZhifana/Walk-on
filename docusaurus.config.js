@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://linzhifana.github.io/',
   baseUrl: '/blog/',
 
   organizationName: 'LinZhifana', // Usually your GitHub org/user name.
@@ -53,15 +53,13 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
-      announcementBar: {
-        id: 'support_us',
-        content: '🌟 如果这个网站能帮助到你, 欢迎给一个 star 支持作者 👉  <a target="_blank" rel="noopener noreferrer" href="https://github.com/linzhifana/blog">GitHub</a>',
-        backgroundColor: '#fafbfc',
-        textColor: '#091E42',
-        isCloseable: true,
+      colorMode: {
+        defaultMode: 'light',
+        respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'NeutronStar xx',
+        title: 'NeutronStarrr',
+        hideOnScroll: true,
         items: [
           {
             type: 'docSidebar',
@@ -69,7 +67,11 @@ const config = {
             position: 'left',
             label: 'Notes',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            to: 'blog',
+            label: 'Blog',
+            position: 'left'
+          },
           {
             type: 'search',
             position: 'right',
@@ -97,6 +99,13 @@ const config = {
           hideable: true,
         },
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'J18AIY1U4O',
+        // Public API key: it is safe to commit it
+        apiKey: '1d28c52e60809bab36c4976badfc32fb',
+        indexName: 'linzhifanaio',
+      }
     }),
   markdown: {
     mermaid: true,

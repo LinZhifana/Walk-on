@@ -4,10 +4,26 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 16rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  color: #dafffb;
+  background-image: linear-gradient(
+    to left bottom,
+    #8bbccc,
+    #7aacc2,
+    #6b9cb8,
+    #5f8cae,
+    #557ca3,
+    #4f719e,
+    #4b6699,
+    #495b92,
+    #4b5290,
+    #4f478c,
+    #553c86,
+    #5c2e7e
+  );
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +36,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #001c30;
 }
