@@ -12,10 +12,10 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://linzhifana.github.io/',
-  baseUrl: '/blog/',
+  baseUrl: '/Walk-on/',
 
   organizationName: 'LinZhifana', // Usually your GitHub org/user name.
-  projectName: 'blog', // Usually your repo name.
+  projectName: 'Walk-on', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -34,12 +34,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/LinZhifana/blog',
+            'https://github.com/LinZhifana/Walk-on',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/LinZhifana/blog',
+            'https://github.com/LinZhifana/Walk-on',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,7 +77,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/LinZhifana/blog',
+            href: 'https://github.com/LinZhifana/Walk-on',
             label: 'GitHub',
             position: 'right',
           },

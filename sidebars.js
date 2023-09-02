@@ -44,6 +44,18 @@ const sidebars = {
         'JavaScript/JavaScript-advanced'
       ],
     },
+    {
+      type: 'category',
+      label: 'React',
+      link: {
+        type: 'generated-index',
+        title: 'React',
+        description: 'React 18 学习笔记'
+      },
+      items: [
+        'React/React-basic',
+      ],
+    }
   ],
 }
 
