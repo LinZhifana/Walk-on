@@ -33,6 +33,18 @@ const sidebars = {
     'intro',
     {
       type: 'category',
+      label: 'R',
+      link: {
+        type: 'generated-index',
+        title: 'R',
+        description: '数据分析和数据可视化',
+      },
+      items: [
+        'R/R',
+      ],
+    },
+    {
+      type: 'category',
       label: 'JavaScript',
       link: {
         type: 'generated-index',

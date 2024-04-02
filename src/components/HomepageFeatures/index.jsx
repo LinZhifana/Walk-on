@@ -6,33 +6,21 @@ const FeatureList = [
   {
     title: 'Front-end',
 
-    description: (
-      <>
-        ...
-      </>
-    ),
+    description: <>...</>,
   },
   {
     title: 'Back-end',
 
-    description: (
-      <>
-        ...
-      </>
-    ),
+    description: <>...</>,
   },
   {
     title: '施工中ing...',
 
-    description: (
-      <>
-        ...
-      </>
-    ),
+    description: <>...</>,
   },
 ]
 
-function Feature ({ Svg, title, description }) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center padding-horiz--md">
@@ -43,7 +31,7 @@ function Feature ({ Svg, title, description }) {
   )
 }
 
-export default function HomepageFeatures () {
+export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
